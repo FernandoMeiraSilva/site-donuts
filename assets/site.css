@@ -193,7 +193,7 @@ p{max-width:36rem}
 .painel-corpo p{margin-bottom:1.1rem}
 .painel-corpo .botao{background:var(--cacau);color:var(--biscoito)}
 .painel-corpo .botao:hover{background:#000}
-.arte-painel{position:absolute;right:0;top:0;width:56%;height:100%;pointer-events:none;opacity:0;transition:opacity .4s .25s}
+.arte-painel{position:absolute;right:0;top:0;width:min(56%,calc(100% - 350px));height:100%;pointer-events:none;opacity:0;transition:opacity .4s .25s}
 .painel.aberto .arte-painel{opacity:1}
 .arte-painel svg{width:100%;height:auto}
 @media(max-width:760px){
